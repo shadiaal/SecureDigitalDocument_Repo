@@ -1,0 +1,13 @@
+<h2>Documents List</h2>
+<ul class="document-list">
+  <li *ngFor="let document of documents" class="document-item">
+    <div class="document-details">
+      <p><strong>Title:</strong> {{ document.title }}</p>
+      <p><strong>Status:</strong> {{ document.status }}</p>
+      <p><strong>Verification Code:</strong> {{ document.verificationCode }}</p>
+      <p><strong>Created At:</strong> {{ document.createdAt | date: 'short' }}</p>
+      <p><strong>User ID:</strong> {{ document.userId }}</p>
+      <p><strong>File Path:</strong> {{ document.filePath }}</p>
+    </div>
+  </li>
+</ul>

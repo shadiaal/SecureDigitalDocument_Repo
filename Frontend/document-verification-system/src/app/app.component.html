@@ -1,0 +1,28 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <ul class="navbar-list">
+      <li>
+        <button routerLink="/dashboard" 
+                routerLinkActive="active-link" 
+                class="btn bg-blue">
+          Dashboard
+        </button>
+      </li>
+      <li>
+        <button routerLink="/upload" 
+                routerLinkActive="active-link" 
+                class="btn bg-yellow">
+          Upload
+        </button>
+      </li>
+      <li>
+        <button  routerLink="/verify" 
+                routerLinkActive="active-link" 
+                class="btn bg-green">
+          Verify
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,8 @@
+<h2>Verify Document</h2>
+
+<div class="container">
+  <input [(ngModel)]="verificationCode" placeholder="Enter verification code" />
+  <button (click)="onVerify()">Verify</button>
+
+  <p>{{ verificationResult }}</p>
+</div>
