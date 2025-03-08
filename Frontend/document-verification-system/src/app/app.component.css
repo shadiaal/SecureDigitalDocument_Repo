@@ -1,0 +1,81 @@
+
+  .navbar {
+    
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+  }
+  
+ 
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .navbar-list {
+    display: flex;
+    gap: 30px; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px; 
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .btn:hover {
+    background-color: #ffb84d;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  button.router-link-active {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+
+  .bg-blue {
+    background-color: #3498db;
+  }
+  
+  .bg-blue:hover {
+    background-color: #2980b9;
+  }
+  
+
+  .bg-yellow {
+    background-color: #f39c12;
+  }
+  
+  .bg-yellow:hover {
+    background-color: #e67e22;
+  }
+  
+ 
+  .bg-green {
+    background-color: #2ecc71;
+  }
+  
+  .bg-green:hover {
+    background-color: #27ae60;
+  }
+  
