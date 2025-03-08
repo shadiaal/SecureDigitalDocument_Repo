@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SecureDocVerification
+build_property.RootNamespace = SecureDocVerification
+build_property.ProjectDir = C:\Users\soosh\Desktop\Elm-Training Program\Practice\Week3\W3_SecureDigitalDocument_Assignment\SecureDigitalDocument_Repo\Backend\SecureDocVerification\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\soosh\Desktop\Elm-Training Program\Practice\Week3\W3_SecureDigitalDocument_Assignment\SecureDigitalDocument_Repo\Backend\SecureDocVerification
+build_property._RazorSourceGeneratorDebug = 
