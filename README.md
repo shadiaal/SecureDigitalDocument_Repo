@@ -60,9 +60,9 @@ This endpoint allows the user to upload a document for verification.
 **Request Body** (JSON):
 ```json
 {
-  "file": "<base64_encoded_file>",      // Base64 encoded file content
-  "documentType": "Invoice",           // Type of the document (e.g., Invoice, Passport, etc.)
-  "userId": 1                          // ID of the user uploading the document
+  "file": "<base64_encoded_file>",      
+  "documentType": "Invoice",           
+  "userId": 1                          
 }
 ```
 
@@ -99,7 +99,7 @@ This endpoint allows the user to verify the uploaded document using the unique v
 - **Response Body** (JSON):
 ```json
 {
-  "isVerified": true,                 // Status of the document verification
+  "isVerified": true,               
   "message": "Document verification successful."
 }
 ```
