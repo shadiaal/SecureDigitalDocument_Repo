@@ -12,35 +12,35 @@ This project implements a Secure Digital Document Verification System that allow
 ## Setup Instructions
 - Backend
 Clone the repository:
-```git clone https://github.com/your-username/secure-document-verification.git```
-```cd secure-document-verification```
+- ```git clone https://github.com/your-username/secure-document-verification.git```
+- ```cd secure-document-verification```
 Install dependencies and run migrations:
 
-```dotnet add package Microsoft.EntityFrameworkCore```
-```dotnet add package Microsoft.EntityFrameworkCore.Tools```
-```dotnet add package Microsoft.EntityFrameworkCore.Design```
-```dotnet add package Dapper```
-```dotnet ef migrations add InitialMigration```
+- ```dotnet add package Microsoft.EntityFrameworkCore```
+- ```dotnet add package Microsoft.EntityFrameworkCore.Tools```
+- ```dotnet add package Microsoft.EntityFrameworkCore.Design```
+- ```dotnet add package Dapper```
+- ```dotnet ef migrations add InitialMigration```
 
-```dotnet ef database update```
+- ```dotnet ef database update```
 Run the backend server:
 ```dotnet run```
 
 - Frontend
 Install Node.js and Angular CLI.
 Install frontend dependencies:
-```npm install```
+- ```npm install```
 Run the Angular development server:
-```ng serve```
+- ```ng serve```
 The frontend will be running at http://localhost:4200.
 
 API Documentation
 1. Upload Document
-Endpoint: POST /api/documents/upload
+- Endpoint: POST /api/documents/upload
 2. Verify Document
-Endpoint: POST /api/documents/verify
+- Endpoint: POST /api/documents/verify
 3. Get Document Details
-Endpoint: GET /api/documents/{documentId}
+- Endpoint: GET /api/documents/{documentId}
 4. Get All Document Details
-Endpoint: GET /api/documents
+- Endpoint: GET /api/documents
 
