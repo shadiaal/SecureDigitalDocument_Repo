@@ -43,7 +43,6 @@ Headers:
 Content-Type: application/json
 Request Body (JSON):
 
-Copy
 {
   "file": "<base64_encoded_file>",      // Base64 encoded file content
   "documentType": "Invoice",           // Type of the document (e.g., Invoice, Passport, etc.)
@@ -52,10 +51,7 @@ Copy
 Response:
 Status: 200 OK
 Response Body (JSON):
-json
-Always show details
 
-Copy
 {
   "documentId": 1,
   "message": "Document uploaded successfully."
@@ -72,30 +68,19 @@ Headers:
 Content-Type: application/json
 Request Body (JSON):
 
-json
-Always show details
-
-Copy
 {
   "verificationCode": "ABC123XYZ"   // Unique code generated for document verification
 }
 Response:
 Status: 200 OK
 Response Body (JSON):
-json
-Always show details
 
-Copy
 {
   "isVerified": true,                 // Status of the document verification
   "message": "Document verification successful."
 }
 If verification fails:
 
-json
-Always show details
-
-Copy
 {
   "isVerified": false,
   "message": "Invalid verification code."
@@ -112,10 +97,7 @@ Replace {documentId} with the ID of the document you want to retrieve.
 Response:
 Status: 200 OK
 Response Body (JSON):
-json
-Always show details
 
-Copy
 {
   "documentId": 1,
   "fileName": "invoice.pdf",
@@ -135,10 +117,6 @@ URL: /api/documents
 Response:
 Status: 200 OK
 Response Body (JSON):
-json
-Always show details
-
-Copy
 [
   {
     "documentId": 1,
@@ -157,11 +135,5 @@ Copy
     "verificationStatus": "Pending"
   }
 ]
-Notes:
-Base64 encoding is used for file uploads to represent the document data in a format that can be transmitted as a JSON object.
-Ensure that the verification code is unique for each document and securely stored to avoid unauthorized access. """
-Saving the content to a README.md file
-readme_path = '/mnt/data/README.md' with open(readme_path, 'w') as file: file.write(readme_content)
 
-readme_path # Returning the path of the generated README file.
 
